@@ -5,7 +5,7 @@ import palette from "../styles/colorPalette";
 const Home = () => {
   return (
     <Container>
-      dd
+      홈
     </Container>
   );
 }
@@ -14,7 +14,7 @@ const Container = styled.div`
   display: block;
   position: relative;
   height: max-content;
-  min-height: 100vh;
+  background-color: ${palette.white};
 `;
 
 export default Home;
