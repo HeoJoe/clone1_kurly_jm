@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import palette from "./styles/colorPalette";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import "./styles/App.css";
 
@@ -13,11 +14,13 @@ const App = () => {
   return(
     <BrowserRouter>
       <Container>
-        <JoinCoupon />
+        <HeaderContainer>
+          <JoinCoupon />
 
-        <UserMenu />
-        <Header />
-        <NavigationTab />
+          <UserMenu />
+          <Header />
+          <NavigationTab />
+        </HeaderContainer>
 
         <Routes>
           <Route path='/' element={<Home />}></Route>
@@ -32,6 +35,12 @@ const Container = styled.div`
   -moz-user-select: none;
   -ms-use-select: none;
   user-select: none;
+`;
+
+const HeaderContainer = styled.div`
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 2px 1px ${palette.grayEE};
 `;
 
 export default App;

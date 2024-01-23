@@ -19,6 +19,10 @@ const NavigationTab = () => {
         <NavMenuBtn>알뜰쇼핑</NavMenuBtn>
         <NavMenuBtn>특가/혜택</NavMenuBtn>
       </NavMenuContainer>
+
+      <NoticeContainer>
+        <NotiveHighlight>샛별·하루 </NotiveHighlight>배송안내
+      </NoticeContainer>
     </Container>
   );
 }
@@ -27,7 +31,7 @@ const Container = styled.div`
   display: flex;
   margin: 0px auto;
   width: 1050px;
-  margin-top: 25px;
+  padding: 22px 0px 12px 0px;
 `;
 
 const Category = styled.div`
@@ -55,6 +59,20 @@ const NavMenuBtn = styled.div`
   font-weight: 600;
   color: ${palette.black33};
   cursor: pointer;
+`;
+
+const NoticeContainer = styled.div`
+  display: flex;
+  padding: 6px 16px;
+  border: 1px solid ${palette.grayEE};
+  border-radius: 18px;
+  color: ${palette.gray66};
+  font-size: 13px;
+`;
+const NotiveHighlight = styled.div`
+  color: ${palette.mainColor};
+  font-weight: 600;
+  margin-right: 4px;
 `;
 
 export default NavigationTab;
