@@ -4,6 +4,8 @@ const palette = {
   white: '#FFFFFF',
 
   main_color: '#5E0080',
+
+  gray_d9: '#d9d9d9',
 };
 
 export default palette;

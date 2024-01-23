@@ -25,8 +25,8 @@ const Container = styled.div`
 const CouponText = styled.div`
   width: 100%;
   color: ${palette.white};
-  font-size: 15px;
-  padding: 12px 0px;
+  font-size: 14px;
+  padding: 11px 0px;
   text-align: center;
   cursor: pointer;
 `;
