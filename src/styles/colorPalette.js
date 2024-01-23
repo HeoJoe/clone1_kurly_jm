@@ -9,6 +9,8 @@ const palette = {
   grayB5: '#b5b5b5',
   grayE2: '#e2e2e2',
   grayA3: '#a3a3a3',
+
+  black33: '#333333',
 };
 
 export default palette;
