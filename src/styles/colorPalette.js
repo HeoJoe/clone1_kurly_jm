@@ -11,8 +11,11 @@ const palette = {
   grayA3: '#a3a3a3',
   grayEE: '#eeeeee',
   gray66: '#666666',
+  grayDD: '#dddddd',
 
   black33: '#333333',
+
+  transparent: '#00000000',
 };
 
 export default palette;

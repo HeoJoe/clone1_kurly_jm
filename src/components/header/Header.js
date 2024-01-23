@@ -49,7 +49,7 @@ const Container = styled.div`
   display: flex;
   margin: 0px auto;
   width: 1050px;
-  margin-top: 10px;
+  margin-top: -91px;
 `;
 
 const Logo = styled.img`
@@ -112,6 +112,11 @@ const RightBtns = styled.div`
 `;
 const Btn = styled.div`
   margin-left: 24px;
+  cursor: pointer;
+
+  :hover {
+    color: ${palette.mainColor};
+  }
 `;
 
 export default Header;

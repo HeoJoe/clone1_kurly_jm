@@ -1,23 +1,38 @@
 // 메뉴 탭
 import React from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
 import { PiList } from "react-icons/pi";
 
 const NavigationTab = () => {
+  const [isCategoryHover, setCategoryHover] = useState(false);
+
   return(
     <Container>
-      <Category>
-        <PiList size="24"/>
-        <CategoryText>카테고리</CategoryText>
-      </Category>
+      {isCategoryHover ?
+        <CategorySelect
+          onMouseOver={() => {setCategoryHover(true)}}
+          onMouseOut={() => {setCategoryHover(false)}}>
+          <PiList size="24"/>
+          <CategoryText>카테고리</CategoryText>
+        </CategorySelect>
+      :
+        <CategoryUnselect
+          onMouseOver={() => {setCategoryHover(true)}}
+          onMouseOut={() => {setCategoryHover(false)}}>
+          <PiList size="24"/>
+          <CategoryText>카테고리</CategoryText>
+        </CategoryUnselect>
+      }
+      
 
       <NavMenuContainer>
-        <NavMenuBtn>신상품</NavMenuBtn>
-        <NavMenuBtn>베스트</NavMenuBtn>
-        <NavMenuBtn>알뜰쇼핑</NavMenuBtn>
-        <NavMenuBtn>특가/혜택</NavMenuBtn>
+        <NavMenuBtn><NavMenuText>신상품</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>베스트</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>알뜰쇼핑</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>특가/혜택</NavMenuText></NavMenuBtn>
       </NavMenuContainer>
 
       <NoticeContainer>
@@ -34,14 +49,21 @@ const Container = styled.div`
   padding: 22px 0px 12px 0px;
 `;
 
-const Category = styled.div`
+const CategoryUnselect = styled.div`
   display: flex;
   align-items: center;
+  cursor: default;
+  color: ${palette.black33};
+`;
+const CategorySelect = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: default;
+  color: ${palette.mainColor};
 `;
 const CategoryText = styled.div`
   font-size: 16px;
   font-weight: 600;
-  color: ${palette.black33};
   margin-left: 12px;
   padding-top: 3px;
   cursor: pointer;
@@ -54,11 +76,22 @@ const NavMenuContainer = styled.div`
 `;
 const NavMenuBtn = styled.div`
   width: 150px;
-  text-align: center;
+  align-items: center;
+
+  :hover {
+    color: ${palette.mainColor};
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3.5px;
+  }
+`;
+const NavMenuText = styled.div`
+  width: fit-content;
   font-size: 16px;
   font-weight: 600;
   color: ${palette.black33};
   cursor: pointer;
+  margin: auto;
 `;
 
 const NoticeContainer = styled.div`
@@ -68,6 +101,7 @@ const NoticeContainer = styled.div`
   border-radius: 18px;
   color: ${palette.gray66};
   font-size: 13px;
+  cursor: pointer;
 `;
 const NotiveHighlight = styled.div`
   color: ${palette.mainColor};
