@@ -26,11 +26,13 @@ const UserMenu = () => {
 
 const Container = styled.div`
   display: flex;
-  padding: 10px 300px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  width: 1050px;
 `;
 
 const Join = styled.div`
-  color: ${palette.main_color};
+  color: ${palette.mainColor};
   font-size: 12px;
   cursor: pointer;
   font-weight: 500;
@@ -58,7 +60,7 @@ const Line = styled.div`
   width: 1px;
   height: auto;
   margin: 0px 12px;
-  background: ${palette.gray_d9};
+  background: ${palette.grayD9};
 `;
 
 export default UserMenu;

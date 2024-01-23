@@ -3,9 +3,12 @@ const palette = {
   black: '#000000',
   white: '#FFFFFF',
 
-  main_color: '#5E0080',
+  mainColor: '#5E0080',
 
-  gray_d9: '#d9d9d9',
+  grayD9: '#d9d9d9',
+  grayB5: '#b5b5b5',
+  grayE2: '#e2e2e2',
+  grayA3: '#a3a3a3',
 };
 
 export default palette;
