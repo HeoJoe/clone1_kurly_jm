@@ -33,7 +33,9 @@ const UserMenu = () => {
       </UserMenuContainer>
 
       {isUserHelpHover ?
-        <UserHelpMenuBox>
+        <UserHelpMenuBox
+          onMouseOver={() => {setUserHelpHover(true)}}
+          onMouseOut={() => {setUserHelpHover(false)}}>
           <UserHelpMenu>공지사항</UserHelpMenu>
           <UserHelpMenu>자주하는 질문</UserHelpMenu>
           <UserHelpMenu>1:1 문의</UserHelpMenu>
@@ -52,6 +54,7 @@ const Container = styled.div`
   margin: 0px auto;
   width: 1050px;
   flex-direction: column;
+  position: relative;
 `;
 
 const UserMenuContainer = styled.div`
@@ -65,33 +68,39 @@ const Join = styled.div`
   cursor: pointer;
   font-weight: 500;
   margin-left: auto;
+  padding: 4px 0px;
 `;
 const SignIn = styled.div`
   color: ${palette.black};
   font-size: 12px;
   cursor: pointer;
   font-weight: 500;
+  padding: 4px 0px;
 `;
 const UserHelp = styled.div`
   color: ${palette.black};
   font-size: 12px;
   cursor: pointer;
   font-weight: 500;
+  padding: 4px 0px;
 `;
 const UserHelpArrow = styled.div`
-  padding-left: 5px;
   cursor: pointer;
   height: 10px;
   margin-top: -2px;
+  padding: 4px 0px 4px 5px;
 `;
 const Line = styled.div`
   width: 1px;
-  height: auto;
-  margin: 0px 12px;
+  height: 12px;
+  margin: auto 12px;
   background: ${palette.grayD9};
 `;
 
 const UserHelpMenuBox = styled.div`
+  position: absolute;
+  right: 0px;
+  top: 33px;
   display: flex;
   flex-direction: column;
   width: 120px;
@@ -110,14 +119,7 @@ const UserHelpMenu = styled.div`
 `;
 
 const UserHelpMenuBoxNone = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 120px;
-  height: 96px;
-  padding: 4px 9px;
-  margin-left: auto;
-  border: 1px solid ${palette.transparent};
-  z-index: -1;
+  display: none;
 `;
 
 export default UserMenu;
