@@ -101,6 +101,7 @@ const NoticeContainer = styled.div`
   border-radius: 18px;
   color: ${palette.gray66};
   font-size: 13px;
+  cursor: pointer;
 `;
 const NotiveHighlight = styled.div`
   color: ${palette.mainColor};
