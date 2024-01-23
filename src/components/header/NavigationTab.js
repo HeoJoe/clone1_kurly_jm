@@ -14,10 +14,10 @@ const NavigationTab = () => {
       </Category>
 
       <NavMenuContainer>
-        <NavMenuBtn>신상품</NavMenuBtn>
-        <NavMenuBtn>베스트</NavMenuBtn>
-        <NavMenuBtn>알뜰쇼핑</NavMenuBtn>
-        <NavMenuBtn>특가/혜택</NavMenuBtn>
+        <NavMenuBtn><NavMenuText>신상품</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>베스트</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>알뜰쇼핑</NavMenuText></NavMenuBtn>
+        <NavMenuBtn><NavMenuText>특가/혜택</NavMenuText></NavMenuBtn>
       </NavMenuContainer>
 
       <NoticeContainer>
@@ -37,6 +37,7 @@ const Container = styled.div`
 const Category = styled.div`
   display: flex;
   align-items: center;
+  cursor: default;
 `;
 const CategoryText = styled.div`
   font-size: 16px;
@@ -54,11 +55,15 @@ const NavMenuContainer = styled.div`
 `;
 const NavMenuBtn = styled.div`
   width: 150px;
-  text-align: center;
+  align-items: center;
+`;
+const NavMenuText = styled.div`
+  width: fit-content;
   font-size: 16px;
   font-weight: 600;
   color: ${palette.black33};
   cursor: pointer;
+  margin: auto;
 `;
 
 const NoticeContainer = styled.div`
