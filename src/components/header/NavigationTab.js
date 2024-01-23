@@ -1,17 +1,32 @@
 // 메뉴 탭
 import React from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
 import { PiList } from "react-icons/pi";
 
 const NavigationTab = () => {
+  const [isCategoryHover, setCategoryHover] = useState(false);
+
   return(
     <Container>
-      <Category>
-        <PiList size="24"/>
-        <CategoryText>카테고리</CategoryText>
-      </Category>
+      {isCategoryHover ?
+        <CategorySelect
+          onMouseOver={() => {setCategoryHover(true)}}
+          onMouseOut={() => {setCategoryHover(false)}}>
+          <PiList size="24"/>
+          <CategoryText>카테고리</CategoryText>
+        </CategorySelect>
+      :
+        <CategoryUnselect
+          onMouseOver={() => {setCategoryHover(true)}}
+          onMouseOut={() => {setCategoryHover(false)}}>
+          <PiList size="24"/>
+          <CategoryText>카테고리</CategoryText>
+        </CategoryUnselect>
+      }
+      
 
       <NavMenuContainer>
         <NavMenuBtn><NavMenuText>신상품</NavMenuText></NavMenuBtn>
@@ -34,15 +49,21 @@ const Container = styled.div`
   padding: 22px 0px 12px 0px;
 `;
 
-const Category = styled.div`
+const CategoryUnselect = styled.div`
   display: flex;
   align-items: center;
   cursor: default;
+  color: ${palette.black33};
+`;
+const CategorySelect = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: default;
+  color: ${palette.mainColor};
 `;
 const CategoryText = styled.div`
   font-size: 16px;
   font-weight: 600;
-  color: ${palette.black33};
   margin-left: 12px;
   padding-top: 3px;
   cursor: pointer;
@@ -56,6 +77,10 @@ const NavMenuContainer = styled.div`
 const NavMenuBtn = styled.div`
   width: 150px;
   align-items: center;
+
+  :hover {
+    color: ${palette.mainColor};
+  }
 `;
 const NavMenuText = styled.div`
   width: fit-content;
