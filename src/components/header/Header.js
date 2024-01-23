@@ -6,6 +6,9 @@ import palette from "../../styles/colorPalette";
 import logo from "../../contents/ic_kurly.svg";
 
 import { CgSearch } from "react-icons/cg";
+import { PiMapPin } from "react-icons/pi";
+import { GoHeart } from "react-icons/go";
+import { BsCart2 } from "react-icons/bs";
 
 const Header = () => {
   return(
@@ -25,8 +28,19 @@ const Header = () => {
         <SearchBtn>
           <CgSearch size="20" color={palette.mainColor} />
         </SearchBtn>
-        
       </SearchContainter>
+
+      <RightBtns>
+        <Btn>
+          <PiMapPin size="30"/>
+        </Btn>
+        <Btn>
+          <GoHeart size="30"/>
+        </Btn>
+        <Btn>
+          <BsCart2 size="30"/>
+        </Btn>
+      </RightBtns>
     </Container>
   );
 }
@@ -35,6 +49,7 @@ const Container = styled.div`
   display: flex;
   margin: 0px auto;
   width: 1050px;
+  margin-top: 10px;
 `;
 
 const Logo = styled.img`
@@ -67,7 +82,7 @@ const KurlyLine = styled.div`
 
 const SearchContainter = styled.div`
   display: flex;
-  margin-left: 60px;
+  margin-left: 70px;
   border-radius: 5px;
   border: 1px solid ${palette.mainColor};
 `;
@@ -89,6 +104,14 @@ const SearchInput = styled.input`
 const SearchBtn = styled.div`
   margin: 11px 12px 4px 0px;
   cursor: pointer;
+`;
+
+const RightBtns = styled.div`
+  display: flex;
+  margin: auto 0px auto auto;
+`;
+const Btn = styled.div`
+  margin-left: 24px;
 `;
 
 export default Header;
