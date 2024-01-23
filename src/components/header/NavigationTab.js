@@ -80,6 +80,9 @@ const NavMenuBtn = styled.div`
 
   :hover {
     color: ${palette.mainColor};
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3.5px;
   }
 `;
 const NavMenuText = styled.div`
