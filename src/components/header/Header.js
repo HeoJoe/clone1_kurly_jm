@@ -1,5 +1,6 @@
 // 헤더
 import React from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
@@ -9,8 +10,29 @@ import { CgSearch } from "react-icons/cg";
 import { PiMapPin } from "react-icons/pi";
 import { GoHeart } from "react-icons/go";
 import { BsCart2 } from "react-icons/bs";
+import { BsXCircleFill } from "react-icons/bs";
 
 const Header = () => {
+  const [inputSearch, setInputSearch] = useState("");
+  const [searchDelete, setSearchDelete] = useState(false);
+
+  const handleInputChange = (e) => {
+    let input = e.target.value;
+    
+    setInputSearch(input);
+
+    if(input.length > 0) setSearchDelete(true);
+    else setSearchDelete(false);
+  };
+
+  const deleteSearchText = () => {
+    setInputSearch("");
+    setSearchDelete(false);
+  }
+
+  useEffect(() => {
+  }, [inputSearch, searchDelete]);
+
   return(
     <Container>
       <Logo src={logo} />
@@ -24,9 +46,23 @@ const Header = () => {
       <SearchContainter>
         <SearchInput
           type="text"
-          placeholder="검색어를 입력해주세요"/>
+          placeholder="검색어를 입력해주세요"
+          value={inputSearch}
+          onChange={handleInputChange}/>
+
+        {searchDelete ?
+          <SearchDeleteBtn
+            onClick={deleteSearchText}>
+            <BsXCircleFill size="15" color={palette.grayC4} />
+          </SearchDeleteBtn>
+          :
+          <SearchDeleteBtnNone>
+            <BsXCircleFill size="15" color={palette.transparent} />
+          </SearchDeleteBtnNone>
+        }
+        
         <SearchBtn>
-          <CgSearch size="20" color={palette.mainColor} />
+          <CgSearch size="22" color={palette.mainColor} />
         </SearchBtn>
       </SearchContainter>
 
@@ -101,9 +137,24 @@ const SearchInput = styled.input`
     color: ${palette.grayA3};
   }
 `;
-const SearchBtn = styled.div`
-  margin: 11px 12px 4px 0px;
+const SearchDeleteBtn = styled.div`
+  display: flex;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
+`;
+const SearchDeleteBtnNone = styled.div`
+  display: flex;
+  cursor: default;
+  align-items: center;
+  justify-content: center;
+`;
+const SearchBtn = styled.div`
+  display: flex;
+  margin: auto 12px auto 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 `;
 
 const RightBtns = styled.div`
