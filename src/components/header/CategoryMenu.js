@@ -25,30 +25,29 @@ const CategoryMenu = () => {
     <Container>
       {/* 상위 카테고리 */}
       <UpperContainer>
-        {categories.map((category, idx) => {
-          return (
+        {categories.map((category, idx) =>
+          <>
+          {idx == selectCategory ? 
+            <CategoryBtnSelect
+              key={idx}
+              onMouseOver={() => {setSelectCategory(idx); setSelectSubCategory(-1);}}
+              onMouseOut={() => {setSelectCategory(-1)}}>
+                <CategoryIcon
+                  src={category.selectIcon}/>
+                <CategoryTextSelect>{category.title}</CategoryTextSelect>
+            </CategoryBtnSelect>
+            :
             <CategoryBtn
               key={idx}
               onMouseOver={() => {setSelectCategory(idx); setSelectSubCategory(-1);}}
               onMouseOut={() => {setSelectCategory(-1)}}>
-              {idx == selectCategory ? 
-                <>
-                <CategoryIcon
-                  src={category.selectIcon}/>
-                <CategoryTextSelect>{category.title}</CategoryTextSelect>
-                </>
-              :
-                <>
                 <CategoryIcon
                   src={category.unselectIcon}/>
                 <CategoryText>{category.title}</CategoryText>
-                </>
-              }
-              
-              
             </CategoryBtn>
-          );
-        })}
+          }
+          </>
+        )}
       </UpperContainer>
       
       {/* 기본 하위 카테고리 */}
@@ -105,10 +104,6 @@ const UpperContainer = styled.div`
   background: ${palette.white};
   border: 1px solid ${palette.grayDD};
   flex-direction: column;
-
-  :hover {
-    background: ${palette.grayEE};
-  }
 `;
 const SubContainer = styled.div`
   display: flex;
@@ -132,6 +127,15 @@ const CategoryBtn = styled.div`
   align-items: center;
   padding: 0px 12px;
   cursor: pointer;
+  background: ${palette.white};
+`;
+const CategoryBtnSelect = styled.div`
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 0px 12px;
+  cursor: pointer;
+  background: ${palette.grayEE};
 `;
 const CategoryIcon = styled.img`
   width: 24px;
