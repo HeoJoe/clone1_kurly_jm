@@ -63,13 +63,14 @@ const Container = styled.div`
 const NavContainer = styled.div`
   display: flex;
   width: 1050px;
-  height: 56px;
+  padding-top: 10px;
+  height: 50px;
   align-items: center;
 `;
 const CategoryContainer = styled.div`
   position: absolute;
   left: 3px;
-  top: 56px;
+  top: 60px;
 `;
 
 const CategoryUnselect = styled.div`
