@@ -40,7 +40,8 @@ const NavigationTab = () => {
           <NotiveHighlight>샛별·하루 </NotiveHighlight>배송안내
         </NoticeContainer>
       </NavContainer>
-
+      
+      {/* 카테고리 hover 시 보여지는 선택 리스트 */}
       {isCategoryHover ?
         <CategoryContainer
           onMouseOver={() => {setCategoryHover(true)}}
