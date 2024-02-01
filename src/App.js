@@ -35,12 +35,16 @@ const Container = styled.div`
   -moz-user-select: none;
   -ms-use-select: none;
   user-select: none;
+  position: relative;
 `;
 
 const HeaderContainer = styled.div`
   width: 100%;
-  margin-bottom: 20px;
-  box-shadow: 0px 1px 2px 1px ${palette.grayEE};
+  height: 190px;
+  position: absolute;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px 1px ${palette.grayC4};
+  z-index: 100;
 `;
 
 export default App;
