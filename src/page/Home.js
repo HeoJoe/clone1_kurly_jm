@@ -2,16 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import palette from "../styles/colorPalette";
 
+import AdvertiseSlide from "../components/home/AdvertiseSlide";
+
 const Home = () => {
   return (
     <Container>
-      홈
+      <AdvertiseSlide />
     </Container>
   );
 }
 
 const Container = styled.div`
-  display: block;
+  display: flex;
   position: relative;
   height: max-content;
   background-color: ${palette.white};

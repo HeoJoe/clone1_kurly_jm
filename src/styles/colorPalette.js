@@ -12,6 +12,7 @@ const palette = {
   grayEE: '#eeeeee',
   gray66: '#666666',
   grayDD: '#dddddd',
+  grayC4: '#c4c4c4',
 
   black33: '#333333',
 
