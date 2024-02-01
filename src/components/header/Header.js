@@ -43,6 +43,7 @@ const Header = () => {
         <BeautyKurly>뷰티컬리</BeautyKurly>
       </Kurlys>
 
+      {/* 검색창 */}
       <SearchContainter>
         <SearchInput
           type="text"
@@ -66,6 +67,7 @@ const Header = () => {
         </SearchBtn>
       </SearchContainter>
 
+      {/* 주소, 찜, 장바구니 */}
       <RightBtns>
         <Btn>
           <PiMapPin size="30"/>
@@ -77,12 +79,16 @@ const Header = () => {
           <BsCart2 size="30"/>
         </Btn>
       </RightBtns>
+
+      {/* 주소 입력 안내 tooltip */}
+      {/*<AddressTooltip>배송지를 등록하고<br/>구매 가능한 상품을 확인하세요!</AddressTooltip>*/}
     </Container>
   );
 }
 
 const Container = styled.div`
   display: flex;
+  position: relative;
   margin: 0px auto;
   width: 1050px;
   margin-top: 5px;
@@ -169,5 +175,31 @@ const Btn = styled.div`
     color: ${palette.mainColor};
   }
 `;
+const AddressTooltip = styled.div`
+  display: block;
+  position: absolute;
+  
+  background-color: ${palette.white};
+  border: ${palette.grayDD} solid 1px;
+  font-size: 14px;
+  font-weight: 500;
+  height: auto;
+  width: max-content;
+  padding: 10px;
+  z-index: 100;
+  transform: translate(-44%, 110%);
+
+  :after{
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+  }
+
+`;
+
 
 export default Header;
