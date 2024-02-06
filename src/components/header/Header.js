@@ -190,8 +190,23 @@ const AddressTooltip = styled.div`
   width: max-content;
   padding: 10px 15px;
   z-index: 100;
+  right: 0;
+  transform: translate(-15%, 65%);
   
   &:after {
+    border-color: ${palette.white} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -9px;
+    width: 0;
+    z-index: 1;
+  }
+  &:before {
     border-color: ${palette.grayDD} transparent;
     border-style: solid;
     border-width: 0 7px 10px 7px;
@@ -200,12 +215,11 @@ const AddressTooltip = styled.div`
     left: 60%;
     transform: translateX(-50%);
     position: absolute;
-    top: -10px;
+    top: -11px;
     width: 0;
-    z-index: 1;
+    z-index: 0;
   }
 `;
-// transform: translate(-44%, 110%);
 const AddressTooltipText = styled.div`
   font-size: 15.5px;
   font-weight: 500;
