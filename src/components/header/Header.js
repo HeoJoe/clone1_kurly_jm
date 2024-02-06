@@ -15,6 +15,7 @@ import { BsXCircleFill } from "react-icons/bs";
 const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
   const [searchDelete, setSearchDelete] = useState(false);
+  const [isAddressHover, setAddressHover] = useState(false);
 
   const handleInputChange = (e) => {
     let input = e.target.value;
@@ -69,7 +70,9 @@ const Header = () => {
 
       {/* 주소, 찜, 장바구니 */}
       <RightBtns>
-        <Btn>
+        <Btn
+          onMouseOver={() => {setAddressHover(true)}}
+          onMouseOut={() => {setAddressHover(false)}}>
           <PiMapPin size="30"/>
         </Btn>
         <Btn>
@@ -81,7 +84,30 @@ const Header = () => {
       </RightBtns>
 
       {/* 주소 입력 안내 tooltip */}
-      {/*<AddressTooltip>배송지를 등록하고<br/>구매 가능한 상품을 확인하세요!</AddressTooltip>*/}
+      {isAddressHover ?
+        <AddressTooltip
+          onMouseOver={() => {setAddressHover(true)}}
+          onMouseOut={() => {setAddressHover(false)}}>
+          <AddressTooltipText>
+            <AddressTooltipHighligh>배송지를 등록</AddressTooltipHighligh>하고
+          </AddressTooltipText>
+          <AddressTooltipText>
+            구매 가능한 상품을 확인하세요!
+          </AddressTooltipText>
+
+          <AddressBtns>
+            <AddressLoginBtn>로그인</AddressLoginBtn>
+            <AddressSearchBtn>
+              <AddressSearchIcon>
+                <CgSearch size="12" color={palette.white} />
+              </AddressSearchIcon>
+              주소 검색
+            </AddressSearchBtn>
+          </AddressBtns>
+        </AddressTooltip>
+        :
+        null
+      }
     </Container>
   );
 }
@@ -176,30 +202,81 @@ const Btn = styled.div`
   }
 `;
 const AddressTooltip = styled.div`
-  display: block;
   position: absolute;
-  
   background-color: ${palette.white};
   border: ${palette.grayDD} solid 1px;
-  font-size: 14px;
-  font-weight: 500;
   height: auto;
   width: max-content;
-  padding: 10px;
+  padding: 15px 20px;
   z-index: 100;
-  transform: translate(-44%, 110%);
-
-  :after{
-    content: '';
+  right: 0;
+  transform: translate(-6.5%, 40%);
+  
+  &:after {
+    border-color: ${palette.white} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
     position: absolute;
-    width: 36px;
-    height: 36px;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
+    top: -9px;
+    width: 0;
+    z-index: 1;
   }
-
+  &:before {
+    border-color: ${palette.grayDD} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -11px;
+    width: 0;
+    z-index: 0;
+  }
 `;
-
+const AddressTooltipText = styled.div`
+  font-size: 15.2px;
+  font-weight: 500;
+  margin: 5px 0px;
+  color: ${palette.black33};
+`;
+const AddressTooltipHighligh = styled.div`
+  display: inline;
+  color: ${palette.mainColor};
+`;
+const AddressBtns = styled.div`
+  display: flex;
+  margin-top: 12px;
+`;
+const AddressLoginBtn = styled.div`
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: ${palette.mainColor};
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchBtn = styled.div`
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 40px 7px 40px;
+  color: ${palette.white};
+  background-color: ${palette.mainColor};
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchIcon = styled.div`
+  margin-right: 5px;
+  margin-top: 1px;
+`;
 
 export default Header;
