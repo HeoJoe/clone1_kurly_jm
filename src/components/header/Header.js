@@ -88,6 +88,16 @@ const Header = () => {
         <AddressTooltipText>
           구매 가능한 상품을 확인하세요!
         </AddressTooltipText>
+
+        <AddressBtns>
+          <AddressLoginBtn>로그인</AddressLoginBtn>
+          <AddressSearchBtn>
+            <AddressSearchIcon>
+              <CgSearch size="12" color={palette.white} />
+            </AddressSearchIcon>
+            주소 검색
+          </AddressSearchBtn>
+        </AddressBtns>
       </AddressTooltip>
     </Container>
   );
@@ -188,10 +198,10 @@ const AddressTooltip = styled.div`
   border: ${palette.grayDD} solid 1px;
   height: auto;
   width: max-content;
-  padding: 10px 15px;
+  padding: 15px 20px;
   z-index: 100;
   right: 0;
-  transform: translate(-15%, 65%);
+  transform: translate(-6.5%, 40%);
   
   &:after {
     border-color: ${palette.white} transparent;
@@ -221,13 +231,43 @@ const AddressTooltip = styled.div`
   }
 `;
 const AddressTooltipText = styled.div`
-  font-size: 15.5px;
+  font-size: 15.2px;
   font-weight: 500;
   margin: 5px 0px;
+  color: ${palette.black33};
 `;
 const AddressTooltipHighligh = styled.div`
   display: inline;
   color: ${palette.mainColor};
+`;
+const AddressBtns = styled.div`
+  display: flex;
+  margin-top: 12px;
+`;
+const AddressLoginBtn = styled.div`
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: ${palette.mainColor};
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchBtn = styled.div`
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 40px 7px 40px;
+  color: ${palette.white};
+  background-color: ${palette.mainColor};
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchIcon = styled.div`
+  margin-right: 5px;
+  margin-top: 1px;
 `;
 
 export default Header;
