@@ -81,7 +81,14 @@ const Header = () => {
       </RightBtns>
 
       {/* 주소 입력 안내 tooltip */}
-      {/*<AddressTooltip>배송지를 등록하고<br/>구매 가능한 상품을 확인하세요!</AddressTooltip>*/}
+      <AddressTooltip>
+        <AddressTooltipText>
+          <AddressTooltipHighligh>배송지를 등록</AddressTooltipHighligh>하고
+        </AddressTooltipText>
+        <AddressTooltipText>
+          구매 가능한 상품을 확인하세요!
+        </AddressTooltipText>
+      </AddressTooltip>
     </Container>
   );
 }
@@ -176,30 +183,37 @@ const Btn = styled.div`
   }
 `;
 const AddressTooltip = styled.div`
-  display: block;
   position: absolute;
-  
   background-color: ${palette.white};
   border: ${palette.grayDD} solid 1px;
-  font-size: 14px;
-  font-weight: 500;
   height: auto;
   width: max-content;
-  padding: 10px;
+  padding: 10px 15px;
   z-index: 100;
-  transform: translate(-44%, 110%);
-
-  :after{
-    content: '';
+  
+  &:after {
+    border-color: ${palette.grayDD} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
     position: absolute;
-    width: 36px;
-    height: 36px;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
+    top: -10px;
+    width: 0;
+    z-index: 1;
   }
-
 `;
-
+// transform: translate(-44%, 110%);
+const AddressTooltipText = styled.div`
+  font-size: 15.5px;
+  font-weight: 500;
+  margin: 5px 0px;
+`;
+const AddressTooltipHighligh = styled.div`
+  display: inline;
+  color: ${palette.mainColor};
+`;
 
 export default Header;
