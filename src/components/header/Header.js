@@ -15,6 +15,7 @@ import { BsXCircleFill } from "react-icons/bs";
 const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
   const [searchDelete, setSearchDelete] = useState(false);
+  const [isAddressHover, setAddressHover] = useState(false);
 
   const handleInputChange = (e) => {
     let input = e.target.value;
@@ -69,7 +70,9 @@ const Header = () => {
 
       {/* 주소, 찜, 장바구니 */}
       <RightBtns>
-        <Btn>
+        <Btn
+          onMouseOver={() => {setAddressHover(true)}}
+          onMouseOut={() => {setAddressHover(false)}}>
           <PiMapPin size="30"/>
         </Btn>
         <Btn>
@@ -81,24 +84,30 @@ const Header = () => {
       </RightBtns>
 
       {/* 주소 입력 안내 tooltip */}
-      <AddressTooltip>
-        <AddressTooltipText>
-          <AddressTooltipHighligh>배송지를 등록</AddressTooltipHighligh>하고
-        </AddressTooltipText>
-        <AddressTooltipText>
-          구매 가능한 상품을 확인하세요!
-        </AddressTooltipText>
+      {isAddressHover ?
+        <AddressTooltip
+          onMouseOver={() => {setAddressHover(true)}}
+          onMouseOut={() => {setAddressHover(false)}}>
+          <AddressTooltipText>
+            <AddressTooltipHighligh>배송지를 등록</AddressTooltipHighligh>하고
+          </AddressTooltipText>
+          <AddressTooltipText>
+            구매 가능한 상품을 확인하세요!
+          </AddressTooltipText>
 
-        <AddressBtns>
-          <AddressLoginBtn>로그인</AddressLoginBtn>
-          <AddressSearchBtn>
-            <AddressSearchIcon>
-              <CgSearch size="12" color={palette.white} />
-            </AddressSearchIcon>
-            주소 검색
-          </AddressSearchBtn>
-        </AddressBtns>
-      </AddressTooltip>
+          <AddressBtns>
+            <AddressLoginBtn>로그인</AddressLoginBtn>
+            <AddressSearchBtn>
+              <AddressSearchIcon>
+                <CgSearch size="12" color={palette.white} />
+              </AddressSearchIcon>
+              주소 검색
+            </AddressSearchBtn>
+          </AddressBtns>
+        </AddressTooltip>
+        :
+        null
+      }
     </Container>
   );
 }
