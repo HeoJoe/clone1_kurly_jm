@@ -4,6 +4,9 @@ import { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
+import { IoIosArrowDropleftCircle } from "react-icons/io";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 import Advertise1 from "../../contents/img_advertise_1.jpg";
 import Advertise2 from "../../contents/img_advertise_2.png";
 import Advertise3 from "../../contents/img_advertise_3.jpg";
@@ -16,7 +19,7 @@ const AdvertiseSlide = () => {
   const imgSize = useRef(images.current.length);
   const [current, setCurrent] = useState(0);
   const [style, setStyle] = useState({
-    marginLeft: `-${current}00%`
+    transform: `translateX(-${current}00vw)`
   });
 
   const moveSlide = (i) => {
@@ -29,20 +32,29 @@ const AdvertiseSlide = () => {
   };
 
   useEffect(() => {
-    setStyle({ marginLeft: `-${current}00%` });
+    setStyle({ transform: `translateX(-${current}00vw)` });
+    console.log(current);
   }, [current]);
 
   return (
     <Container>
-      <AdvertiseContainter>
+      <AdvertiseContainter style={style}>
         {images.current.map((img, idx) => (
           <AdvertiseImg
             key={idx}
-            className="img"
             src={img.src}
           />
         ))}
       </AdvertiseContainter>
+
+      <SlideMoveBtns>
+        <PreviousBtn onClick={() => { moveSlide(-1); }}>
+          <IoIosArrowDropleftCircle size="60" />
+        </PreviousBtn>
+        <NextBtn onClick={() => { moveSlide(1); }}>
+          <IoIosArrowDroprightCircle size="60" />
+        </NextBtn>
+      </SlideMoveBtns>
     </Container>
   );
 }
@@ -54,14 +66,35 @@ const Container = styled.div`
   height: max-content;
   top: 190px;
   z-index: 10;
+  overflow: hidden; 
+  justify-content: center;
 `;
 
 const AdvertiseContainter = styled.div`
   display: flex;
-  width: 100%;
 `;
 const AdvertiseImg = styled.img`
-  width: 100%;
+  height: 360px;
+  cursor: pointer;
+`;
+
+const SlideMoveBtns = styled.div`
+  display: flex;
+  position: absolute;
+  width: 1300px;
+  height: 100%;
+  align-items: center;
+`;
+const PreviousBtn = styled.div`
+  color: ${palette.black};
+  opacity: 0.25;
+  cursor: pointer;
+`;
+const NextBtn = styled.div`
+  color: ${palette.black};
+  opacity: 0.25;
+  margin-left: auto;
+  cursor: pointer;
 `;
 
 export default AdvertiseSlide;
