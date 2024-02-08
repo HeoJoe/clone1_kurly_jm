@@ -1,6 +1,6 @@
 // 광고 슬라이드
 import React from "react";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,11 +55,8 @@ const AdvertiseSlide = () => {
 
 const Container = styled.div`
   display: flex;
-  position: absolute;
   width: 100%;
   height: max-content;
-  top: 190px;
-  z-index: 10;
 `;
 
 const AdvertiseContainter = styled.div`
