@@ -8,7 +8,7 @@ import MDRecommend from "../components/home/MDRecommend";
 const Home = () => {
   return (
     <Container>
-      {/*<AdvertiseSlide />*/}
+      <AdvertiseSlide />
       <MDRecommend />
     </Container>
   );
