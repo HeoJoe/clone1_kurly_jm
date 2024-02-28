@@ -14,18 +14,18 @@ const MDRecommend = () => {
 
 const Container = styled.div`
   display: flex;
-  position: static;
+  position: relative;
   width: 100%;
   flex-direction: column;
 `;
 
 const Title = styled.div`
   display: flex;
-  width: 100%;
   font-size: 25px;
   color: ${palette.black33};
   font-weight: 600;
   text-align: center;
+  margin: 0px auto;
 `;
 
 export default MDRecommend;

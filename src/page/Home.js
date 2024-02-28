@@ -17,6 +17,7 @@ const Home = () => {
 const Container = styled.div`
   display: block;
   position: absolute;
+  width: 100%;
   height: max-content;
   top: 190px;
   z-index: 10;
