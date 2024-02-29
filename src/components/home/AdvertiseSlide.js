@@ -23,7 +23,7 @@ const AdvertiseSlide = () => {
   return (
     <Container>
       <AdvertiseContainter>
-        
+        광고가 있어야 할 곳
       </AdvertiseContainter>
 
       {/*<SlideMoveBtns>
