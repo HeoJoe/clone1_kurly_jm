@@ -1,0 +1,1359 @@
+[
+  {
+    "category" : "간편식·밀키트·샐러드",
+    "products" : [
+      {
+        "productName" : "[할머니가래떡볶이] 오리지널 가래떡 떡볶이",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/c81065a4-6736-4a9e-b260-d32d789c1d97.jpg",
+        "originalPrice" : "6,100원",
+        "discountPrice" : "5,550원",
+        "discount" : "9%",
+        "commentCnt" : "999+",
+        "label" : null
+      },
+      {
+        "productName" : "[이화수] 육개장 칼국수",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/47c2c4cf-d25b-4188-bd92-1a006e37413e.jpg",
+        "originalPrice" : "8,900원",
+        "discountPrice" : "6,670원",
+        "discount" : "25%",
+        "commentCnt" : "394",
+        "label" : null
+      },
+      {
+        "productName" : "[최현석의 쵸이닷] 씨푸드 콜드 카펠리니 파스타",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1658129438862l0.jpg",
+        "originalPrice" : "9,200원",
+        "discountPrice" : "8,280원",
+        "discount" : "10%",
+        "commentCnt" : "644",
+        "label" : null
+      },
+      {
+        "productName" : "[라비퀸] 오리지널 떡볶이",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1558935268425l0.jpg",
+        "originalPrice" : "5,900원",
+        "discountPrice" : "5,310원",
+        "discount" : "10%",
+        "commentCnt" : "999+",
+        "label" : null
+      },
+      {
+        "productName" : "[서촌 영화루] 짜장면 2인분",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/a4400043-79de-4ab7-9fdc-7f40eee8e347.jpg",
+        "originalPrice" : "9,900원",
+        "discountPrice" : "8,910원",
+        "discount" : "10%",
+        "commentCnt" : "999+",
+        "label" : null
+      },
+      {
+        "productName" : "[루이키친M] 오징어 볶음 짬뽕",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/bb361ec6-f527-49cc-a9e3-8ef803ec5602.jpg",
+        "originalPrice" : "7,900원",
+        "discountPrice" : "6,873원",
+        "discount" : "13%",
+        "commentCnt" : "999+",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "과일·견과·쌀",
+    "products" : [
+      {
+        "productName" : "유레카 블루베리 100g 2종 (택1) (국내산)",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1648206848752l0.jpeg",
+        "originalPrice" : "23,900원",
+        "discountPrice" : "20,500원",
+        "discount" : "14%",
+        "commentCnt" : "9,999+",
+        "label" : null
+      },
+      {
+        "productName" : "[KF365] 대추방울토마토 750g",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/f22cd181-c263-4e3c-99c7-e387a12261bd.jpg",
+        "originalPrice" : "12,900원",
+        "discountPrice" : "10,900원",
+        "discount" : "15%",
+        "commentCnt" : "9,999+",
+        "label" : null
+      },
+      {
+        "productName" : "[MPARK] 블랙라벨 고당도 오렌지 1.2kg (중대과/5입)",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1648210180516l0.jpeg",
+        "originalPrice" : "9,990원",
+        "discountPrice" : "7,990원",
+        "discount" : "20%",
+        "commentCnt" : "9,999+",
+        "label" : null
+      },
+      {
+        "productName" : "[KF365] DOLE 실속 바나나 2종",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/f5275bb6-340c-418c-8d54-8c72fe3d5ccb.jpg",
+        "originalPrice" : "3,860원",
+        "discountPrice" : "3,474원~",
+        "discount" : "10%",
+        "commentCnt" : "9,999+",
+        "label" : null
+      },
+      {
+        "productName" : "맛좋은 알뜰배 2kg (3~4입)",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/ea272c72-7825-42cc-a767-243f1a18f27d.jpg",
+        "originalPrice" : null,
+        "discountPrice" : "19,900원",
+        "discount" : null,
+        "commentCnt" : "625",
+        "label" : null
+      },
+      {
+        "productName" : "저탄소 GAP 성주참외 1.1kg (4입)",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1647569733676l0.jpg",
+        "originalPrice" : "21,500원",
+        "discountPrice" : "19,990원",
+        "discount" : "7%",
+        "commentCnt" : "999+",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "국·반찬·메인요리",
+    "products" : [
+      {
+        "productName" : "국·반찬·메인요리 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : "+10% 쿠폰"
+      },
+      {
+        "productName" : "국·반찬·메인요리 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "국·반찬·메인요리 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "국·반찬·메인요리 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "국·반찬·메인요리 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "국·반찬·메인요리 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "헤어·바디·구강",
+    "products" : [
+      {
+        "productName" : "헤어·바디·구강 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "헤어·바디·구강 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "헤어·바디·구강 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "헤어·바디·구강 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "헤어·바디·구강 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "헤어·바디·구강 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "정육·가공육·계란",
+    "products" : [
+      {
+        "productName" : "정육·가공육·계란 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "정육·가공육·계란 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "정육·가공육·계란 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "정육·가공육·계란 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "정육·가공육·계란 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "정육·가공육·계란 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "생수·음료",
+    "products" : [
+      {
+        "productName" : "생수·음료 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생수·음료 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생수·음료 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생수·음료 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생수·음료 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생수·음료 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "커피·차",
+    "products" : [
+      {
+        "productName" : "커피·차 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "커피·차 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "커피·차 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "커피·차 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "커피·차 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "커피·차 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "베이커리",
+    "products" : [
+      {
+        "productName" : "베이커리 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "베이커리 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "베이커리 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "베이커리 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "베이커리 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "베이커리 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "스킨케어·메이크업",
+    "products" : [
+      {
+        "productName" : "스킨케어·메이크업 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "스킨케어·메이크업 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "스킨케어·메이크업 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "스킨케어·메이크업 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "스킨케어·메이크업 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "스킨케어·메이크업 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "채소",
+    "products" : [
+      {
+        "productName" : "채소 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "채소 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "채소 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "채소 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "채소 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "채소 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "수산·해산·건어물",
+    "products" : [
+      {
+        "productName" : "수산·해산·건어물 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "수산·해산·건어물 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "수산·해산·건어물 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "수산·해산·건어물 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "수산·해산·건어물 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "수산·해산·건어물 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "생활용품·리빙",
+    "products" : [
+      {
+        "productName" : "생활용품·리빙 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생활용품·리빙 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생활용품·리빙 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생활용품·리빙 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생활용품·리빙 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "생활용품·리빙 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "면·양념·오일",
+    "products" : [
+      {
+        "productName" : "면·양념·오일 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "면·양념·오일 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "면·양념·오일 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "면·양념·오일 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "면·양념·오일 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "면·양념·오일 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "주방용품",
+    "products" : [
+      {
+        "productName" : "주방용품 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "주방용품 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "주방용품 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "주방용품 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "주방용품 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "주방용품 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "간식·과자·떡",
+    "products" : [
+      {
+        "productName" : "간식·과자·떡 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "간식·과자·떡 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "간식·과자·떡 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "간식·과자·떡 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "간식·과자·떡 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "간식·과자·떡 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "전통주",
+    "products" : [
+      {
+        "productName" : "전통주 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "전통주 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "전통주 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "전통주 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "전통주 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "전통주 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "가전제품",
+    "products" : [
+      {
+        "productName" : "가전제품 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가전제품 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가전제품 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가전제품 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가전제품 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가전제품 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "가구·인테리어",
+    "products" : [
+      {
+        "productName" : "가구·인테리어 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가구·인테리어 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : " 가구·인테리어3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가구·인테리어 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가구·인테리어 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "가구·인테리어 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "건강식품",
+    "products" : [
+      {
+        "productName" : "건강식품 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "건강식품 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "건강식품 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "건강식품 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "건강식품 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "건강식품 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "유아동",
+    "products" : [
+      {
+        "productName" : "유아동 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "유아동 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "유아동 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "유아동 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "유아동 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "유아동 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "와인·위스키",
+    "products" : [
+      {
+        "productName" : "[카스0.0] 논알콜 음료 500ml 8캔 + 전용잔",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/a252add9-e47a-49ef-b484-6785b3d22e5d.jpg",
+        "originalPrice" : "11,600원",
+        "discountPrice" : "10,800원",
+        "discount" : "6%",
+        "commentCnt" : "",
+        "label" : "19세성인인증"
+      },
+      {
+        "productName" : "[카스0.0] 논알콜 음료 (355ml X 6캔) (성인용)",
+        "thumbnail" : "https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1643164155339l0.jpg",
+        "originalPrice" : "5,100원",
+        "discountPrice" : "4,300원",
+        "discount" : "15%",
+        "commentCnt" : "999+",
+        "label" : "19세성인인증"
+      },
+      {
+        "productName" : "[호가든] 프룻브루 로제 2종 (택1)",
+        "thumbnail" : "https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/b3268648-f033-44f3-8597-e7b0744b3d4c.jpg",
+        "originalPrice" : "12,000원",
+        "discountPrice" : "8,400원",
+        "discount" : "30%",
+        "commentCnt" : "155",
+        "label" : "19세성인인증"
+      },
+      {
+        "productName" : "와인/위스키 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : "19세성인인증"
+      },
+      {
+        "productName" : "와인/위스키 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : "19세성인인증"
+      },
+      {
+        "productName" : "와인/위스키 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : "19세성인인증"
+      }
+    ]
+  }, 
+  {
+    "category" : "반려동물",
+    "products" : [
+      {
+        "productName" : "[키니키니X어프어프]COOKIE CREAM SLEEVELESS-SKY...",
+        "thumbnail" : "https://3p-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/files/20240109/6018f781-c173-4d8d-81f6-5519d1577851.jpg",
+        "originalPrice" : "29,000원",
+        "discountPrice" : "19,900원",
+        "discount" : "31%",
+        "commentCnt" : "",
+        "label" : "+10% 쿠폰"
+      },
+      {
+        "productName" : "반려동물 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : "+5% 쿠폰"
+      },
+      {
+        "productName" : "반려동물 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "반려동물 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "반려동물 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "반려동물 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }, 
+  {
+    "category" : "패션잡화",
+    "products" : [
+      {
+        "productName" : "패션잡화 1",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "패션잡화 2",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "패션잡화 3",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "패션잡화 4",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "패션잡화 5",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      },
+      {
+        "productName" : "패션잡화 6",
+        "thumbnail" : "https://github.com/HeoJoe/clone1_kurly_jm/assets/76805879/6666fb7d-d4d9-456f-af61-eefceceed8e8",
+        "originalPrice" : "1,000원",
+        "discountPrice" : "900원",
+        "discount" : "10%",
+        "commentCnt" : "2",
+        "label" : null
+      }
+    ]
+  }
+]
