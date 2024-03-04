@@ -4,6 +4,7 @@ const palette = {
   white: '#FFFFFF',
 
   mainColor: '#5E0080',
+  lightMain: '#F7F3F8',
 
   grayD9: '#d9d9d9',
   grayB5: '#b5b5b5',
@@ -13,6 +14,7 @@ const palette = {
   gray66: '#666666',
   grayDD: '#dddddd',
   grayC4: '#c4c4c4',
+  grayF7: '#f7f7f7',
 
   black33: '#333333',
 
