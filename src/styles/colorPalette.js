@@ -17,6 +17,7 @@ const palette = {
   grayF7: '#f7f7f7',
 
   black33: '#333333',
+  redDiscount: '#fa622f',
 
   transparent: '#00000000',
 };

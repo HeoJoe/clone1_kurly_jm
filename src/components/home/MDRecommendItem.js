@@ -17,6 +17,15 @@ const MDRecommendItem = ({ product }) => {
         </BasketIcon>
         담기
       </ShoppingBasket>
+
+      <ProductName>{product.productName}</ProductName>
+      <OriginalPrice>{product.originalPrice}</OriginalPrice>
+
+      <DiscountBox>
+        <DiscountPercent>{product.discount}</DiscountPercent>
+        <DiscountPrice>{product.discountPrice}</DiscountPrice>
+      </DiscountBox>
+
     </Container>
   );
 }
@@ -48,6 +57,45 @@ const ShoppingBasket = styled.div`
 `;
 const BasketIcon = styled.div`
   margin: 1px 5px 0px 0px;
+`;
+
+const ProductName = styled.div`
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  overflow: hidden;
+`;
+const OriginalPrice = styled.div`
+  display: block;
+  padding-top: 1.5px;
+  color: ${palette.grayB5};
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: line-through;
+`;
+
+const DiscountBox = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+const DiscountPercent = styled.div`
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  white-space: nowrap;
+  margin-right: 7px;
+  color: ${palette.redDiscount};
+`;
+const DiscountPrice = styled.div`
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  white-space: nowrap;
+  box-sizing: border-box;
+  color: ${palette.black33};
 `;
 
 export default MDRecommendItem;
