@@ -5,12 +5,19 @@ import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
 import { PiList } from "react-icons/pi";
+import { PiMapPin } from "react-icons/pi";
+import { GoHeart } from "react-icons/go";
+import { BsCart2 } from "react-icons/bs";
+import { CgSearch } from "react-icons/cg";
+
 import CategoryMenu from "./CategoryMenu";
 
 const NavigationTab = () => {
   const [isCategoryHover, setCategoryHover] = useState(false);
-
+  
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [isAddressHover, setAddressHover] = useState(false);
+
   const updateScroll = () => {
       setScrollPosition(window.scrollY || document.documentElement.scrollTop);
   }
@@ -89,6 +96,47 @@ const NavigationTab = () => {
                 <ChangeNavMenuBtn><NavMenuText>알뜰쇼핑</NavMenuText></ChangeNavMenuBtn>
                 <ChangeNavMenuBtn><NavMenuText>특가/혜택</NavMenuText></ChangeNavMenuBtn>
               </ChangeNavMenuContainer>
+
+              {/* 주소, 찜, 장바구니 */}
+              <RightBtns>
+                <Btn
+                  onMouseOver={() => {setAddressHover(true)}}
+                  onMouseOut={() => {setAddressHover(false)}}>
+                  <PiMapPin size="30"/>
+                </Btn>
+                <Btn>
+                  <GoHeart size="30"/>
+                </Btn>
+                <Btn>
+                  <BsCart2 size="30"/>
+                </Btn>
+              </RightBtns>
+
+              {/* 주소 입력 안내 tooltip */}
+              {isAddressHover ?
+                <AddressTooltip
+                  onMouseOver={() => {setAddressHover(true)}}
+                  onMouseOut={() => {setAddressHover(false)}}>
+                  <AddressTooltipText>
+                    <AddressTooltipHighligh>배송지를 등록</AddressTooltipHighligh>하고
+                  </AddressTooltipText>
+                  <AddressTooltipText>
+                    구매 가능한 상품을 확인하세요!
+                  </AddressTooltipText>
+
+                  <AddressBtns>
+                    <AddressLoginBtn>로그인</AddressLoginBtn>
+                    <AddressSearchBtn>
+                      <AddressSearchIcon>
+                        <CgSearch size="12" color={palette.white} />
+                      </AddressSearchIcon>
+                      주소 검색
+                    </AddressSearchBtn>
+                  </AddressBtns>
+                </AddressTooltip>
+                :
+                null
+              }
 
             </ChangeNavContent>
           </ChangeNavContainer>
@@ -239,6 +287,98 @@ const ChangeNavContent = styled.div`
   height: 56px;
   margin: 0px auto;
   align-items: center;
+`;
+
+const RightBtns = styled.div`
+  display: flex;
+  margin: auto 0px auto auto;
+`;
+const Btn = styled.div`
+  margin-left: 24px;
+  cursor: pointer;
+
+  :hover {
+    color: ${palette.mainColor};
+  }
+`;
+
+const AddressTooltip = styled.div`
+  position: absolute;
+  background-color: ${palette.white};
+  border: ${palette.grayDD} solid 1px;
+  height: auto;
+  width: max-content;
+  padding: 15px 20px;
+  z-index: 100;
+  top: 7px;
+  right: 0;
+  transform: translate(-6.5%, 40%);
+  
+  &:after {
+    border-color: ${palette.white} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -9px;
+    width: 0;
+    z-index: 1;
+  }
+  &:before {
+    border-color: ${palette.grayDD} transparent;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    content: "";
+    display: block;
+    left: 60%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -11px;
+    width: 0;
+    z-index: 0;
+  }
+`;
+const AddressTooltipText = styled.div`
+  font-size: 15.2px;
+  font-weight: 500;
+  margin: 5px 0px;
+  color: ${palette.black33};
+`;
+const AddressTooltipHighligh = styled.div`
+  display: inline;
+  color: ${palette.mainColor};
+`;
+const AddressBtns = styled.div`
+  display: flex;
+  margin-top: 12px;
+`;
+const AddressLoginBtn = styled.div`
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: ${palette.mainColor};
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchBtn = styled.div`
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 40px 7px 40px;
+  color: ${palette.white};
+  background-color: ${palette.mainColor};
+  border-radius: 2px;
+  border: 1px solid ${palette.mainColor};
+  cursor: pointer;
+`;
+const AddressSearchIcon = styled.div`
+  margin-right: 5px;
+  margin-top: 1px;
 `;
 
 export default NavigationTab;
