@@ -46,6 +46,8 @@ const Container = styled.div`
 
 const AdvertiseContainter = styled.div`
   height: 360px;
+  width: 100%;
+  background: ${palette.lightMain};
 `;
 const AdvertiseImg = styled.img`
   max-width: 1900px;
