@@ -7,6 +7,7 @@ import palette from "../../styles/colorPalette";
 import MdRecommendData from "../../contents/mdRecommendJson.json";
 import MDRecommendItem from "./MDRecommendItem";
 
+import MdArrow from "../../contents/ic_md_arrow.svg";
 
 const MDRecommend = () => {
   const getRandom = (min, max) => {
@@ -43,14 +44,18 @@ const MDRecommend = () => {
           </>
         )}
       </CategoryList>
-
-      <MDRecommendList>
-        {MdRecommendData[selectCategory].products.map((product, idx) =>
-          <MDRecommendItem
-            key={idx}
-            product={product}/>
-        )}
-      </MDRecommendList>
+      
+      <MDContainer>
+        <MDRecommendList>
+          {MdRecommendData[selectCategory].products.map((product, idx) =>
+            <MDRecommendItem
+              key={idx}
+              product={product}/>
+          )}
+        </MDRecommendList>
+        <ArrowBtn
+          src={MdArrow}/>
+      </MDContainer>
 
       <AllProductBtn>{MdRecommendData[selectCategory].category} 전체보기</AllProductBtn>
 
@@ -106,6 +111,10 @@ const CategorySelectBtn = styled.div`
   cursor: pointer;
 `;
 
+const MDContainer = styled.div`
+  position: relative;
+`;
+
 const MDRecommendList = styled.div`
   display: flex;
   position: relative;
@@ -126,6 +135,20 @@ const AllProductBtn = styled.div`
   height: 50px;
   border-radius: 3px;
   border: 1px solid ${palette.grayE3};
+  cursor: pointer;
+`;
+
+const ArrowBtn = styled.img`
+  position: absolute;
+  z-index: 100;
+  border: 0px;
+  outline: 0px;
+  width: 60px;
+  height: 60px;
+  top: 182px;
+  right: 0px;
+  transform: translate(50%, -50%) rotate(180deg);
+  transition: background 0.5s ease 0s;
   cursor: pointer;
 `;
 
