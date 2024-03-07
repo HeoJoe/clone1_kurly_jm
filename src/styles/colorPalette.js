@@ -15,6 +15,7 @@ const palette = {
   grayDD: '#dddddd',
   grayC4: '#c4c4c4',
   grayF7: '#f7f7f7',
+  gray99: '#999999',
 
   black33: '#333333',
   redDiscount: '#fa622f',

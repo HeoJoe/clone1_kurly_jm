@@ -5,6 +5,7 @@ import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
 import { BsCart2 } from "react-icons/bs";
+import { LiaCommentDots } from "react-icons/lia";
 
 const MDRecommendItem = ({ product }) => {
   return(
@@ -25,6 +26,11 @@ const MDRecommendItem = ({ product }) => {
         <DiscountPercent>{product.discount}</DiscountPercent>
         <DiscountPrice>{product.discountPrice}</DiscountPrice>
       </DiscountBox>
+
+      <CommentBox>
+        <LiaCommentDots size="17"/>
+        <CommentCnt>{product.commentCnt}</CommentCnt>
+      </CommentBox>
 
     </Container>
   );
@@ -96,6 +102,19 @@ const DiscountPrice = styled.div`
   white-space: nowrap;
   box-sizing: border-box;
   color: ${palette.black33};
+`;
+
+const CommentBox = styled.div`
+  display: flex;
+  color: ${palette.gray99};
+  padding-top: 6px;
+  font-size: 13px;
+  line-height: 20px;
+  align-items: center;
+`;
+const CommentCnt = styled.div`
+  padding-left: 2px;
+  font-weight: 400;
 `;
 
 export default MDRecommendItem;
