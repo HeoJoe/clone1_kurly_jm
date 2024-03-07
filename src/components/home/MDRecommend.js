@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import palette from "../../styles/colorPalette";
 
-import MdRecommend from "../../contents/mdRecommendJson.json";
+import MdRecommendData from "../../contents/mdRecommendJson.json";
+import MDRecommendItem from "./MDRecommendItem";
 
 
 const MDRecommend = () => {
@@ -12,34 +13,45 @@ const MDRecommend = () => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
                       
-  const [selectCategory, setSelectCategory] = useState(MdRecommend[getRandom(0, 22)].category);
+  const [selectCategory, setSelectCategory] = useState(getRandom(0, 22));
 
   useEffect(() => {
   }, [selectCategory]);
+
+  
 
   return (
     <Container>
       <Title>MD의 추천</Title>
 
       <CategoryList>
-        {MdRecommend.map((recommend, idx) =>
+        {MdRecommendData.map((recommend, idx) =>
           <>
-            {recommend.category == selectCategory ?
-              <CategorySelectBtn
-                key={idx}
-                onClick={() => setSelectCategory(recommend.category)}>
-                {recommend.category}
-              </CategorySelectBtn>
+            {idx == selectCategory ?
+                <CategorySelectBtn
+                  key={idx}
+                  onClick={() => setSelectCategory(idx)}>
+                  {recommend.category}
+                </CategorySelectBtn>
             :
               <CategoryBtn
                 key={idx}
-                onClick={() => setSelectCategory(recommend.category)}>
+                onClick={() => setSelectCategory(idx)}>
                 {recommend.category}
               </CategoryBtn>
             }
           </>
         )}
       </CategoryList>
+
+      <MDRecommendList>
+        {MdRecommendData[selectCategory].products.map((product, idx) =>
+          <MDRecommendItem
+            key={idx}
+            product={product}/>
+        )}
+      </MDRecommendList>
+
     </Container>
   );
 }
@@ -48,7 +60,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   width: 1050px;
-  margin: 0px auto;
+  margin: 36px auto 0px auto;
   flex-direction: column;
 `;
 
@@ -69,7 +81,7 @@ const CategoryList = styled.div`
 const CategoryBtn = styled.div`
   display: flex;
   border-radius: 22px;
-  font-size: 14px;
+  font-size: 14.5px;
   background: ${palette.grayF7};
   color: ${palette.black33};
   padding: 10px 20px;
@@ -90,6 +102,15 @@ const CategorySelectBtn = styled.div`
   padding: 10px 20px;
   margin: 0px 5px 20px 5px;
   cursor: pointer;
+`;
+
+const MDRecommendList = styled.div`
+  display: flex;
+  position: relative;
+  width: 1050px;
+  margin: 20px auto 27px auto;
+  flex-direction: row;
+  overflow: hidden;
 `;
 
 export default MDRecommend;
