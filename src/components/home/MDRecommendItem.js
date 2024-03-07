@@ -39,7 +39,8 @@ const MDRecommendItem = ({ product }) => {
 const Container = styled.div`
   display: block;
   width: 249px;
-  margin-right: 18px
+  margin-right: 18px;
+  cursor: pointer;
 `;
 
 const ThumbnailImg = styled.img`
@@ -110,7 +111,6 @@ const CommentBox = styled.div`
   padding-top: 6px;
   font-size: 13px;
   line-height: 20px;
-  align-items: center;
 `;
 const CommentCnt = styled.div`
   padding-left: 2px;
