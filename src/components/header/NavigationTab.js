@@ -9,6 +9,7 @@ import { PiMapPin } from "react-icons/pi";
 import { GoHeart } from "react-icons/go";
 import { BsCart2 } from "react-icons/bs";
 import { CgSearch } from "react-icons/cg";
+import { BsXCircleFill } from "react-icons/bs";
 
 import CategoryMenu from "./CategoryMenu";
 
@@ -17,6 +18,8 @@ const NavigationTab = () => {
   
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isAddressHover, setAddressHover] = useState(false);
+  const [inputSearch, setInputSearch] = useState("");
+  const [searchDelete, setSearchDelete] = useState(false);
 
   const updateScroll = () => {
       setScrollPosition(window.scrollY || document.documentElement.scrollTop);
@@ -25,6 +28,23 @@ const NavigationTab = () => {
   useEffect(()=>{
       window.addEventListener('scroll', updateScroll);
   });
+
+  const handleInputChange = (e) => {
+    let input = e.target.value;
+    
+    setInputSearch(input);
+
+    if(input.length > 0) setSearchDelete(true);
+    else setSearchDelete(false);
+  };
+
+  const deleteSearchText = () => {
+    setInputSearch("");
+    setSearchDelete(false);
+  }
+
+  useEffect(() => {
+  }, [inputSearch, searchDelete]);
 
   return(
     <Container>
@@ -96,6 +116,29 @@ const NavigationTab = () => {
                 <ChangeNavMenuBtn><NavMenuText>알뜰쇼핑</NavMenuText></ChangeNavMenuBtn>
                 <ChangeNavMenuBtn><NavMenuText>특가/혜택</NavMenuText></ChangeNavMenuBtn>
               </ChangeNavMenuContainer>
+
+              <ChangeSearch>
+                <SearchInput
+                  type="text"
+                  placeholder="검색어를 입력해주세요"
+                  value={inputSearch}
+                  onChange={handleInputChange}/>
+
+                {searchDelete ?
+                  <SearchDeleteBtn
+                    onClick={deleteSearchText}>
+                    <BsXCircleFill size="15" color={palette.grayC4} />
+                  </SearchDeleteBtn>
+                  :
+                  <SearchDeleteBtnNone>
+                    <BsXCircleFill size="15" color={palette.transparent} />
+                  </SearchDeleteBtnNone>
+                }
+                
+                <SearchBtn>
+                  <CgSearch size="18" color={palette.black33} />
+                </SearchBtn>
+              </ChangeSearch>
 
               {/* 주소, 찜, 장바구니 */}
               <RightBtns>
@@ -379,6 +422,48 @@ const AddressSearchBtn = styled.div`
 const AddressSearchIcon = styled.div`
   margin-right: 5px;
   margin-top: 1px;
+`;
+
+const ChangeSearch = styled.div`
+  display: flex;
+  margin-left: -135px;
+  border-radius: 5px;
+  background: ${palette.grayF7};
+`;
+const SearchInput = styled.input`
+  border: none;
+  width: 160px;
+  margin: 10px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: ${palette.black};
+  background: ${palette.grayF7};
+
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: ${palette.grayA3};
+  }
+`;
+const SearchDeleteBtn = styled.div`
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+`;
+const SearchDeleteBtnNone = styled.div`
+  display: flex;
+  cursor: default;
+  align-items: center;
+  justify-content: center;
+`;
+const SearchBtn = styled.div`
+  display: flex;
+  margin: auto 12px auto 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default NavigationTab;
